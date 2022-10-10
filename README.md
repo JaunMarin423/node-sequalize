@@ -4,26 +4,32 @@ Sequelize REST API
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+This command installs a package, and any packages that it depends on. If the package has a package-lock or shrinkwrap file, the installation of dependencies will be driven by that, with an npm-shrinkwrap.json taking precedence if both files exist. See package-lock.json and npm shrinkwrap.
 
 ```bash
-pip install foobar
+npm install
 ```
 
 ## Usage
 
 ```python
-import foobar
+Compilar TS
 
-# returns 'words'
-foobar.pluralize('word')
+# compilar 'TS'
+npm run tsc
 
-# returns 'geese'
-foobar.pluralize('goose')
+# compilación 'desarrollo'
+npm run dev
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+# compilación 'general'
+npm run start
 ```
+
+## Modeling
+
+This is the basic relationship that we are using in this example
+
+![](./docs/diagram.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

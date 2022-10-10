@@ -3,7 +3,7 @@ import {
 } from 'sequelize';
 
 export const sequelize = new Sequelize(
-    'projectsdb',
+    'projectsdb2',
     'postgres',
     'mysecretpassword', {
     host: 'localhost',

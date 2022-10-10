@@ -1,6 +1,11 @@
 # Node-Sequalize
 
 Sequelize REST API
+- nodejs
+- express
+- postgreSQL
+- sequelize
+- typescript
 
 ## Installation
 
